@@ -1,15 +1,14 @@
 /**
- * world_seed.js - Save the world seed to server data.
+ * world_seed.js - Save the world seed to randomprocess.
  */
 ServerEvents.loaded((event) => {
+    // Get the seed and set
     const { server } = event;
     const seed = server.worldData.worldGenOptions().seed();
+    randomprocess.saveSeed(seed);
 
-    if (server.persistentData.getLong("seed") !== seed) {
-        server.persistentData.putLong("seed", seed);
-
-        server.scheduleInTicks(10, (schedule) => {
-            server.runCommandSilent("reload");
-        });
-    }
+    // Reload to generate recipes
+    server.scheduleInTicks(10, (schedule) => {
+        server.runCommandSilent("reload");
+    });
 });

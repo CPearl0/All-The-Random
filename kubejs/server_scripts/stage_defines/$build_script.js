@@ -4,4 +4,7 @@ const stageList = [
     stageIndustrialForegoing,
     stageMekanism,
     stageAd_astra,
+    stageBotania,
+    stageTwilightforest,
+    stageAether,
 ];

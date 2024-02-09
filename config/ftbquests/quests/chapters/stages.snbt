@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stages"
+	group: ""
+	id: "6DCE2736BA8F9E13"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6AF7C1285C533AFB"
+			rewards: [{
+				auto: "invisible"
+				id: "596B735B048F2DAA"
+				ignore_reward_blocking: true
+				stage: "industrialforegoing"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "2A75AC9BAD931844"
+				stage: "industrialforegoing"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "12BA1F4E55F4B400"
+			rewards: [{
+				auto: "invisible"
+				id: "02112F1093E2D402"
+				ignore_reward_blocking: true
+				stage: "industrialforegoing$finished"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "36267F39675FF83E"
+				stage: "industrialforegoing$finished"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Stages"
+}

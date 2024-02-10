@@ -1,7 +1,7 @@
 // priority: 100
 /** @type { Stage } */
 const stageFinal = StageBuilder.create("final")
-    .endItem("minecraft:air")
+    .endItem("storagedrawers:creative_vending_upgrade")
     .defaultStartItems(
         "minecraft:air",
         "minecraft:air")

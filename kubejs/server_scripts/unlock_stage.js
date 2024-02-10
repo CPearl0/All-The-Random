@@ -37,7 +37,7 @@ PlayerEvents.loggedIn((event) => {
     }
 
     if (!event.hasGameStage("$initial")) {
-        stageList.forEach(addInitialStage, null);
+        stageList.forEach(addInitialStage);
         addInitialStage(stageFinal);
         event.addGameStage("$initial");
     }

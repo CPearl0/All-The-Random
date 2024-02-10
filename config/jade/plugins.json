@@ -67,6 +67,9 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
+  "supplementaries": {
+    "hat_stand": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -78,8 +81,16 @@
   "expatternprovider": {
     "jade_wireless": true
   },
+  "waystones": {
+    "waystone": true
+  },
   "gravestone": {
     "grave": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   },
   "ae2": {
     "part_icon": true,

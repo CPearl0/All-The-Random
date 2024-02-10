@@ -6,6 +6,7 @@ const stageMekanism = StageBuilder.create("mekanism")
         "#forge:glass/silica",
         "#forge:glass/silica",
         "#forge:ingots/osmium")
+    .defaultStartItemReplaces(-1, 0, -1)
     .startWith((recipesEvent, items) => {
         recipesEvent.remove({ output: "mekanism:steel_casing" });
         recipesEvent.shaped(

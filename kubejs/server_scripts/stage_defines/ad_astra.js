@@ -5,6 +5,7 @@ const stageAd_astra = StageBuilder.create("ad_astra")
     .defaultStartItems(
         "minecraft:redstone_torch",
         "minecraft:redstone_torch")
+    .defaultStartItemReplaces(-1, 0)
     .startWith((recipesEvent, items) => {
         recipesEvent.remove({ output: "ad_astra:nasa_workbench" });
         recipesEvent.shaped(

@@ -5,6 +5,7 @@ const stageBotania = StageBuilder.create("botania")
     .defaultStartItems(
         "minecraft:air",
         "minecraft:air")
+    .defaultStartItemReplaces(-1, 0)
     .startWith((recipesEvent, items) => {
         const apothecarys = [
             ["default", "minecraft:cobblestone"],

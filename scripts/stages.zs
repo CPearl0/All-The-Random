@@ -6,8 +6,11 @@ ItemStages.createModRestriction("industrialforegoing", "industrialforegoing");
 ItemStages.createModRestriction("ad_astra", "ad_astra");
 
 ItemStages.createModRestriction("mekanism", "mekanism");
+ItemStages.createModRestriction("mekanismadditions", "mekanism");
 
 ItemStages.createModRestriction("botania", "botania");
+
+ItemStages.createModRestriction("mysticalagriculture", "mysticalagriculture");
 
 ItemStages.createModRestriction("twilightforest", "twilightforest");
 ReDimensionStages.restrict("twilightforest:twilight_forest", "twilightforest");

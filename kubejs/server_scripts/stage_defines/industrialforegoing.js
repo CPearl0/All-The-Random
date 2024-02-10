@@ -6,6 +6,7 @@ const stageIndustrialForegoing = StageBuilder.create("industrialforegoing")
         "#forge:ingots/iron",
         "#forge:ingots/iron",
         "#forge:storage_blocks/redstone")
+    .defaultStartItemReplaces(-1, 0, -1)
     .startWith((recipesEvent, items) => {
         recipesEvent.remove({ output: "industrialforegoing:machine_frame_pity" });
         recipesEvent.shaped(

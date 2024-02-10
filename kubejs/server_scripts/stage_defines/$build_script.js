@@ -5,6 +5,7 @@ const stageList = [
     stageMekanism,
     stageAd_astra,
     stageBotania,
-    stageTwilightforest,
+    stageMysticalAgriculture,
+    stageTwilightForest,
     stageAether,
 ];

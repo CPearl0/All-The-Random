@@ -1,6 +1,6 @@
 // priority: 100
 /** @type { Stage } */
-const stageTwilightforest = StageBuilder.create("twilightforest")
+const stageTwilightForest = StageBuilder.create("twilightforest")
     .endItem("twilightforest:castle_brick")
     .defaultStartItems(
         "minecraft:air",

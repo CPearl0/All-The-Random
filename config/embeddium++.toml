@@ -49,15 +49,15 @@
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
 				enable = true
-				#List of all Entities to be ignored by distance culling
-				#Uses ResourceLocation to identify it
-				#Example 1: "minecraft:bat" - Ignores bats only
-				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
-				whitelist = []
 				#Configure vertical max distance before cull entities
 				#Value is raw
 				#Range: 0 ~ 512
 				cullingMaxDistanceY = 32
+				#List of all Entities to be ignored by distance culling
+				#Uses ResourceLocation to identify it
+				#Example 1: "minecraft:bat" - Ignores bats only
+				#Example 2: "alexsmobs:*" - ignores all entities for alexmobs mod
+				whitelist = ["minecraft:ghast", "minecraft:ender_dragon", "iceandfire:*", "create:*"]
 
 			[embeddiumplus.performance.distanceCulling.tileEntities]
 				#Configure horizontal max distance before cull Block entities
@@ -67,15 +67,15 @@
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
 				enable = true
-				#List of all Block Entities to be ignored by distance culling
-				#Uses ResourceLocation to identify it
-				#Example 1: "minecraft:chest" - Ignores chests only
-				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
-				whitelist = []
 				#Configure vertical max distance before cull Block entities
 				#Value is raw
 				#Range: 0 ~ 512
 				cullingMaxDistanceY = 32
+				#List of all Block Entities to be ignored by distance culling
+				#Uses ResourceLocation to identify it
+				#Example 1: "minecraft:chest" - Ignores chests only
+				#Example 2: "ae2:*" - ignores all Block entities from Applied Energetics 2
+				whitelist = ["waterframes:*"]
 
 	[embeddiumplus.dynlights]
 		#Toggle if Block Entities should have dynamic lights
@@ -103,7 +103,7 @@
 		#Raise clouds
 		#Modify clouds height perfect for a adaptative world experience
 		#Range: 0 ~ 512
-		cloudsHeight = 128
+		cloudsHeight = 192
 		#Toggle fog feature
 		#Fog was a vanilla feature, toggling off may increases performance
 		fog = true

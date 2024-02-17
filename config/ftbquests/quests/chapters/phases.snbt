@@ -11,6 +11,7 @@
 			id: "629C606483E1DC07"
 			rewards: [{
 				command: "/gamephase add @p industrialforegoing"
+				elevate_perms: true
 				id: "5C9207C0E03C2CF5"
 				type: "command"
 			}]
@@ -26,6 +27,7 @@
 			id: "2433A92B5D71EFD0"
 			rewards: [{
 				command: "/gamephase add @p \"industrialforegoing$finished\""
+				elevate_perms: true
 				id: "3E4FE6E6251BC92B"
 				type: "command"
 			}]
@@ -44,6 +46,7 @@
 			id: "63C2F13F35B26B02"
 			rewards: [{
 				command: "/gamephase add @p mekanism"
+				elevate_perms: true
 				id: "12CB0BC50E0CB49C"
 				type: "command"
 			}]
@@ -59,6 +62,7 @@
 			id: "42D0AB2C44ED5CF5"
 			rewards: [{
 				command: "/gamephase add @p \"mekanism$finished\""
+				elevate_perms: true
 				id: "21C34259C8866C79"
 				type: "command"
 			}]
@@ -77,6 +81,7 @@
 			id: "1EAB1D8C769C44E4"
 			rewards: [{
 				command: "/gamephase add @p ad_astra"
+				elevate_perms: true
 				id: "0FB7A7D0BD57507F"
 				type: "command"
 			}]
@@ -92,6 +97,7 @@
 			id: "0981154F6FD09FCB"
 			rewards: [{
 				command: "/gamephase add @p \"ad_astra$finished\""
+				elevate_perms: true
 				id: "2526DFF125A811C2"
 				type: "command"
 			}]
@@ -110,6 +116,7 @@
 			id: "1FCBF7E4D757CFE7"
 			rewards: [{
 				command: "/gamephase add @p botania"
+				elevate_perms: true
 				id: "2D65A93C0C080AA2"
 				type: "command"
 			}]
@@ -125,6 +132,7 @@
 			id: "689921176ACC1642"
 			rewards: [{
 				command: "/gamephase add @p \"botania$finished\""
+				elevate_perms: true
 				id: "27C46995AD0DCB8C"
 				type: "command"
 			}]
@@ -143,6 +151,7 @@
 			id: "39EED970BDDB600E"
 			rewards: [{
 				command: "/gamephase add @p mysticalagriculture"
+				elevate_perms: true
 				id: "23537043F2F496A4"
 				type: "command"
 			}]
@@ -158,6 +167,7 @@
 			id: "02F4F2397BC9A0E9"
 			rewards: [{
 				command: "/gamephase add @p \"mysticalagriculture$finished\""
+				elevate_perms: true
 				id: "526EE1184D15FB03"
 				type: "command"
 			}]
@@ -176,6 +186,7 @@
 			id: "38B99F8B00941B42"
 			rewards: [{
 				command: "/gamephase add @p twilightforest"
+				elevate_perms: true
 				id: "2FC292BDDE1428BF"
 				type: "command"
 			}]
@@ -191,6 +202,7 @@
 			id: "5E2E221C75BC098B"
 			rewards: [{
 				command: "/gamephase add @p \"twilightforest$finished\""
+				elevate_perms: true
 				id: "0EF543969937A8C7"
 				type: "command"
 			}]
@@ -209,6 +221,7 @@
 			id: "51F1FA01E0DF0EF8"
 			rewards: [{
 				command: "/gamephase add @p aether"
+				elevate_perms: true
 				id: "38326C8E671F9616"
 				type: "command"
 			}]
@@ -224,6 +237,7 @@
 			id: "30C6DDAFA579CD2D"
 			rewards: [{
 				command: "/gamephase add @p \"aether$finished\""
+				elevate_perms: true
 				id: "5F047476F23AC6D2"
 				type: "command"
 			}]
@@ -242,6 +256,7 @@
 			id: "72A6FBDE5F7562D7"
 			rewards: [{
 				command: "/gamephase add @p final"
+				elevate_perms: true
 				id: "5508CE3AA1A24B0A"
 				type: "command"
 			}]

@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "phases"
+	group: ""
+	id: "51B1C70AE25CF5A7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "629C606483E1DC07"
+			rewards: [{
+				command: "/gamephase add @p industrialforegoing"
+				id: "5C9207C0E03C2CF5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "36252DBF3D06F819"
+				tags: ["industrialforegoing"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2433A92B5D71EFD0"
+			rewards: [{
+				command: "/gamephase add @p \"industrialforegoing$finished\""
+				id: "3E4FE6E6251BC92B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5B6CCD57B126E4CC"
+				tags: [
+					"industrialforegoing"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "63C2F13F35B26B02"
+			rewards: [{
+				command: "/gamephase add @p mekanism"
+				id: "12CB0BC50E0CB49C"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3A27964180AFA5E8"
+				tags: ["mekanism"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "42D0AB2C44ED5CF5"
+			rewards: [{
+				command: "/gamephase add @p \"mekanism$finished\""
+				id: "21C34259C8866C79"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5EE283B8411D1ED9"
+				tags: [
+					"mekanism"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "1EAB1D8C769C44E4"
+			rewards: [{
+				command: "/gamephase add @p ad_astra"
+				id: "0FB7A7D0BD57507F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4486AEEF9017D8AF"
+				tags: ["ad_astra"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "0981154F6FD09FCB"
+			rewards: [{
+				command: "/gamephase add @p \"ad_astra$finished\""
+				id: "2526DFF125A811C2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "24CCFE0CE55CADAB"
+				tags: [
+					"ad_astra"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "1FCBF7E4D757CFE7"
+			rewards: [{
+				command: "/gamephase add @p botania"
+				id: "2D65A93C0C080AA2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1FB537C8E744B063"
+				tags: ["botania"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "689921176ACC1642"
+			rewards: [{
+				command: "/gamephase add @p \"botania$finished\""
+				id: "27C46995AD0DCB8C"
+				type: "command"
+			}]
+			tasks: [{
+				id: "727DD17F71857C7A"
+				tags: [
+					"botania"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "39EED970BDDB600E"
+			rewards: [{
+				command: "/gamephase add @p mysticalagriculture"
+				id: "23537043F2F496A4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "520F351CAA86BC03"
+				tags: ["mysticalagriculture"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "02F4F2397BC9A0E9"
+			rewards: [{
+				command: "/gamephase add @p \"mysticalagriculture$finished\""
+				id: "526EE1184D15FB03"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3F8D1018083466B7"
+				tags: [
+					"mysticalagriculture"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "38B99F8B00941B42"
+			rewards: [{
+				command: "/gamephase add @p twilightforest"
+				id: "2FC292BDDE1428BF"
+				type: "command"
+			}]
+			tasks: [{
+				id: "575075C2F73FCE28"
+				tags: ["twilightforest"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "5E2E221C75BC098B"
+			rewards: [{
+				command: "/gamephase add @p \"twilightforest$finished\""
+				id: "0EF543969937A8C7"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4074172F6650D3D2"
+				tags: [
+					"twilightforest"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "51F1FA01E0DF0EF8"
+			rewards: [{
+				command: "/gamephase add @p aether"
+				id: "38326C8E671F9616"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72744F47C50BA651"
+				tags: ["aether"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "30C6DDAFA579CD2D"
+			rewards: [{
+				command: "/gamephase add @p \"aether$finished\""
+				id: "5F047476F23AC6D2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "534BFF110F6EF802"
+				tags: [
+					"aether"
+					"finished"
+				]
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "72A6FBDE5F7562D7"
+			rewards: [{
+				command: "/gamephase add @p final"
+				id: "5508CE3AA1A24B0A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "52527B47F72AA063"
+				tags: ["final"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+	title: "Phases"
+}

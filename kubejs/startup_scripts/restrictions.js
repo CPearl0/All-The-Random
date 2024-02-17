@@ -1,10 +1,10 @@
 StartupEvents.postInit(event => {
     GamePhase.addItemModRestriction("industrialforegoing", "industrialforegoing");
 
-    GamePhase.addItemModRestriction("ad_astra", "ad_astra");
-
     GamePhase.addItemModRestriction("mekanism", "mekanism");
     GamePhase.addItemModRestriction("mekanism", "mekanismadditions");
+
+    GamePhase.addItemModRestriction("ad_astra", "ad_astra");
 
     GamePhase.addItemModRestriction("botania", "botania");
 
